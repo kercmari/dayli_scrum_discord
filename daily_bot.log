@@ -1,0 +1,340 @@
+2025-01-19 03:59:16,114 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 03:59:16,115 - daily_bot - INFO - Iniciando bot...
+2025-01-19 03:59:16,116 - discord.client - INFO - logging in using static token
+2025-01-19 03:59:17,265 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6841d154df471c4ab1965b799fda0839).
+2025-01-19 03:59:19,276 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 03:59:19,483 - daily_bot - INFO - Cog cargado y comandos sincronizados
+2025-01-19 03:59:19,483 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 03:59:19,486 - daily_bot - ERROR - Error obteniendo equipo 1: 404
+2025-01-19 03:59:50,782 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: /registrar_equipo
+2025-01-19 04:02:36,290 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 04:02:36,291 - daily_bot - INFO - Iniciando bot...
+2025-01-19 04:02:36,291 - discord.client - INFO - logging in using static token
+2025-01-19 04:02:37,376 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: edcad620d366b30249066fb112241151).
+2025-01-19 04:02:39,380 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 04:02:39,604 - daily_bot - INFO - Cog cargado y comandos sincronizados
+2025-01-19 04:02:39,604 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 04:02:39,607 - daily_bot - ERROR - Error obteniendo equipo 1: 404
+2025-01-19 04:02:46,309 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: /registrar_equipo
+2025-01-19 04:03:11,344 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: registrar_equipo
+2025-01-19 04:03:36,051 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: /registrar_equipo
+2025-01-19 04:04:00,730 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: registrar_equipo
+2025-01-19 04:07:24,907 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 04:07:24,908 - daily_bot - INFO - Iniciando bot...
+2025-01-19 04:07:24,908 - discord.client - INFO - logging in using static token
+2025-01-19 04:07:25,982 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4b0d344aeb7eaafd6c4172fc0aa15f65).
+2025-01-19 04:07:28,006 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 04:07:28,007 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 04:07:28,371 - daily_bot - INFO - Sincronizados 8 comandos
+2025-01-19 04:07:28,371 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 04:07:28,371 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo']
+2025-01-19 04:07:28,375 - daily_bot - ERROR - Error obteniendo equipo 1: 404
+2025-01-19 04:07:43,882 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: /registrar_equipo
+2025-01-19 04:07:59,914 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: registrar_equipo
+2025-01-19 04:10:58,992 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 04:10:58,993 - daily_bot - INFO - Iniciando bot...
+2025-01-19 04:10:58,994 - discord.client - INFO - logging in using static token
+2025-01-19 04:11:00,032 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f7cc4d43b506c062f68cee52f7789184).
+2025-01-19 04:11:02,038 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 04:11:02,038 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 04:11:02,493 - daily_bot - INFO - Sincronizados 8 comandos
+2025-01-19 04:11:02,493 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 04:11:02,494 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo']
+2025-01-19 04:11:02,496 - daily_bot - ERROR - Error obteniendo equipo 1: 404
+2025-01-19 04:13:33,768 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: hola
+2025-01-19 04:14:10,797 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: rerere
+2025-01-19 04:15:44,676 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: registrar_equipo
+2025-01-19 04:16:02,119 - daily_bot - INFO - Registrando equipo: bot-dayli
+2025-01-19 04:16:02,122 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:17:56,492 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 04:17:56,493 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 04:17:56,493 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 04:17:56,493 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 04:17:56,493 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 04:17:56,493 - daily_bot - INFO - Iniciando bot...
+2025-01-19 04:17:56,494 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 04:17:56,494 - discord.client - INFO - logging in using static token
+2025-01-19 04:17:57,642 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0b041aae3ece04cbe182a540c0084c31).
+2025-01-19 04:17:59,653 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 04:17:59,653 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 04:17:59,967 - daily_bot - INFO - Sincronizados 8 comandos
+2025-01-19 04:17:59,967 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 04:17:59,967 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo']
+2025-01-19 04:17:59,969 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:17:59,970 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/api/obtener_equipo/1 HTTP/1.1" 404 207
+2025-01-19 04:17:59,970 - daily_bot - ERROR - Error obteniendo equipo 1: 404
+2025-01-19 04:18:20,968 - daily_bot - INFO - Registrando equipo: bot-dayli
+2025-01-19 04:18:20,969 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:18:20,971 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/api/registrar_equipo HTTP/1.1" 404 207
+2025-01-19 04:18:20,972 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:19:20,751 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 04:19:20,752 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 04:19:20,752 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 04:19:20,752 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 04:19:20,752 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 04:19:20,752 - daily_bot - INFO - Iniciando bot...
+2025-01-19 04:19:20,752 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 04:19:20,753 - discord.client - INFO - logging in using static token
+2025-01-19 04:19:21,972 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 651a449cfcd9f0354a6e5a12e6b3beb8).
+2025-01-19 04:19:23,976 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 04:19:23,976 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 04:19:24,274 - daily_bot - INFO - Sincronizados 8 comandos
+2025-01-19 04:19:24,274 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 04:19:24,274 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo']
+2025-01-19 04:19:24,275 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:19:24,278 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 500 265
+2025-01-19 04:19:24,278 - daily_bot - ERROR - Error obteniendo equipo 1: 500
+2025-01-19 04:19:28,177 - daily_bot - INFO - Registrando equipo: bot-dayli
+2025-01-19 04:19:28,178 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:19:28,203 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 265
+2025-01-19 04:19:28,204 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:20:15,000 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 04:20:15,001 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 04:20:15,001 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 04:20:15,001 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 04:20:15,001 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 04:20:15,001 - daily_bot - INFO - Iniciando bot...
+2025-01-19 04:20:15,002 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 04:20:15,002 - discord.client - INFO - logging in using static token
+2025-01-19 04:20:16,053 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b0093b850ff37d968cc267ef06827bb5).
+2025-01-19 04:20:18,066 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 04:20:18,066 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 04:20:18,302 - daily_bot - INFO - Sincronizados 8 comandos
+2025-01-19 04:20:18,302 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 04:20:18,302 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo']
+2025-01-19 04:20:18,304 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:20:18,306 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 500 265
+2025-01-19 04:20:18,306 - daily_bot - ERROR - Error obteniendo equipo 1: 500
+2025-01-19 04:20:22,792 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:20:22,793 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:20:22,796 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 265
+2025-01-19 04:20:22,797 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:26:43,515 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:26:43,516 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:26:43,536 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 265
+2025-01-19 04:26:43,537 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:30:08,200 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:30:08,201 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:30:08,228 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 45391
+2025-01-19 04:30:08,230 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:33:33,462 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:33:33,463 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:33:33,483 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 265
+2025-01-19 04:33:33,484 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:34:49,434 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:34:49,435 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:34:49,458 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 265
+2025-01-19 04:34:49,459 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:38:43,024 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:38:43,025 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:38:43,046 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 265
+2025-01-19 04:38:43,047 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:39:08,880 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:39:08,881 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:39:08,907 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 46860
+2025-01-19 04:39:08,908 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:43:20,292 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:43:20,293 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:43:20,320 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 46860
+2025-01-19 04:43:20,321 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:49:33,992 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:49:33,993 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:49:36,545 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 176
+2025-01-19 04:49:36,546 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:50:23,679 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:50:23,680 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:50:25,440 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 176
+2025-01-19 04:50:25,441 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 04:51:50,919 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 04:51:50,920 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 04:51:50,939 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 500 171
+2025-01-19 04:51:50,940 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 05:45:51,274 - discord.gateway - INFO - Shard ID None has successfully RESUMED session b0093b850ff37d968cc267ef06827bb5.
+2025-01-19 10:58:34,892 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 10:58:34,893 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 10:58:34,894 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 10:58:34,894 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 10:58:34,894 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 10:58:34,894 - daily_bot - INFO - Iniciando bot...
+2025-01-19 10:58:34,894 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 10:58:34,894 - discord.client - INFO - logging in using static token
+2025-01-19 10:58:36,143 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4a2ef05b3ef26f3e84d00196fb2042a0).
+2025-01-19 10:58:38,304 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 10:58:38,305 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 10:58:38,569 - daily_bot - INFO - Sincronizados 8 comandos
+2025-01-19 10:58:38,570 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 10:58:38,570 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo']
+2025-01-19 10:58:38,571 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 10:58:39,061 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 404 34
+2025-01-19 10:58:39,062 - daily_bot - ERROR - Error obteniendo equipo 1: 404
+2025-01-19 10:59:11,336 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000
+2025-01-19 10:59:11,337 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 10:59:12,476 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 200 47
+2025-01-19 10:59:12,477 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por kercmari en CodeCommunity
+2025-01-19 11:03:03,519 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:03:03,520 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:03:03,520 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:03:03,520 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:03:03,520 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:03:03,520 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:03:03,520 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:03:03,521 - discord.client - INFO - logging in using static token
+2025-01-19 11:03:04,873 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8138ba916d20b34cb51bf7cd3ab3d31c).
+2025-01-19 11:03:06,896 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:03:06,897 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:03:07,228 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:03:07,228 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 11:03:07,228 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:03:07,230 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:03:07,705 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:03:07,706 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:06:31,816 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:06:31,817 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:06:31,817 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:06:31,817 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:06:31,817 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:06:31,817 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:06:31,817 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:06:31,818 - discord.client - INFO - logging in using static token
+2025-01-19 11:06:33,158 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 007148636806e7a6865c481131b66eac).
+2025-01-19 11:06:35,161 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:06:35,161 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:06:35,624 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:06:35,624 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 11:06:35,624 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:06:35,626 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:06:36,094 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:06:36,094 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:09:49,945 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:09:49,946 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:09:49,946 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:09:49,946 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:09:49,946 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:09:49,946 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:09:49,946 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:09:49,947 - discord.client - INFO - logging in using static token
+2025-01-19 11:09:51,249 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c4c1c35dabbbf49026f048107a3179fe).
+2025-01-19 11:09:53,259 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:09:53,259 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:09:53,537 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:09:53,537 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 11:09:53,537 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:09:53,539 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:09:54,004 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:09:54,004 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:09:57,637 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:09:57,638 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:09:57,638 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:09:57,638 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:09:57,638 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:09:57,638 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:09:57,639 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:09:57,639 - discord.client - INFO - logging in using static token
+2025-01-19 11:09:59,006 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 18332f61a4fae6e95d313fb5d05a2398).
+2025-01-19 11:10:01,010 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:10:01,010 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:10:32,254 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: /registrar_miembros
+2025-01-19 11:10:53,758 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:10:53,758 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 11:10:53,758 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:10:53,760 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:10:54,274 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:10:54,275 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:14:37,889 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:14:37,890 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:14:37,890 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:14:37,890 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:14:37,890 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:14:37,890 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:14:37,890 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:14:37,891 - discord.client - INFO - logging in using static token
+2025-01-19 11:14:39,047 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6a1d470137c27598cdfc11465305f335).
+2025-01-19 11:14:41,058 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:14:41,058 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:14:41,607 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:14:41,608 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 11:14:41,608 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:14:41,610 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:14:42,112 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:14:42,112 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:15:20,209 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:15:20,211 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:15:20,211 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:15:20,211 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:15:20,211 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:15:20,211 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:15:20,211 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:15:20,212 - discord.client - INFO - logging in using static token
+2025-01-19 11:15:21,509 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: aa473d235a057c74b4b846ccf95e08f9).
+2025-01-19 11:15:23,515 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:15:23,515 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:15:23,743 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:15:23,743 - daily_bot - INFO - Tarea de recordatorio iniciada
+2025-01-19 11:15:23,743 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:15:23,744 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:15:24,264 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:15:24,264 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:20:26,322 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:20:26,323 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:20:26,323 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:20:26,323 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:20:26,323 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:20:26,323 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:20:26,323 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:20:26,324 - discord.client - INFO - logging in using static token
+2025-01-19 11:20:27,437 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b3627eb82b6de0816fba17ba2ec49f64).
+2025-01-19 11:20:29,441 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:20:29,442 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:20:29,886 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:20:29,886 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:20:29,888 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:20:30,391 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:20:30,392 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:20:55,791 - daily_bot - INFO - Mensaje recibido de kercmari en #bot-dayli: /sync
+2025-01-19 11:39:08,470 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:39:08,471 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:39:08,471 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:39:08,471 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:39:08,471 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:39:08,471 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:39:08,471 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:39:08,472 - discord.client - INFO - logging in using static token
+2025-01-19 11:39:09,742 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1dafc9d7dd524f9753086ab0618eb1b1).
+2025-01-19 11:39:11,749 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:39:11,750 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:39:12,020 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:39:12,020 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:39:12,021 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:39:12,489 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:39:12,490 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:44:33,365 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:44:33,366 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:44:33,366 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:44:33,366 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:44:33,366 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:44:33,366 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:44:33,367 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:44:33,367 - discord.client - INFO - logging in using static token
+2025-01-19 11:44:34,558 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1b6804dc71ea3f0528dd9e8efccf9e16).
+2025-01-19 11:44:36,564 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:44:36,565 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:44:36,855 - daily_bot - INFO - Sincronizados 9 comandos
+2025-01-19 11:44:36,855 - daily_bot - INFO - Comandos disponibles: ['iniciar_daily', 'iniciar_daily_efimero', 'pregunta_sprint', 'iniciar_sprint', 'finalizar_sprint', 'crear_daily', 'responder_daily', 'registrar_equipo', 'registrar_miembros']
+2025-01-19 11:44:36,856 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:44:37,321 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:44:37,322 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-19 11:48:28,998 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-19 11:48:28,999 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-19 11:48:29,000 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-19 11:48:29,000 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-19 11:48:29,000 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-19 11:48:29,000 - daily_bot - INFO - Iniciando bot...
+2025-01-19 11:48:29,000 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-19 11:48:29,000 - discord.client - INFO - logging in using static token
+2025-01-19 11:48:30,179 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3bb2574cb4cfd8253dec2b66b8d7143d).
+2025-01-19 11:48:32,226 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-19 11:48:32,226 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-19 11:48:32,226 - daily_bot - INFO - Recordatorio diario iniciado
+2025-01-19 11:48:32,227 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-19 11:48:32,810 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
+2025-01-19 11:48:32,811 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.

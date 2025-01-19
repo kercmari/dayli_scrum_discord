@@ -1,0 +1,8 @@
+discord.py==2.3.2
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+psycopg2-binary
+python-dotenv
+mypy
+sqlalchemy[mypy]
