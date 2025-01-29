@@ -1,3 +1,14 @@
+Configuracion y test
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requeriments.txt
+
+python3 run.py
+python3 discord_bot/bot.py
+```
+
 Comandos disponibles
 1. Preguntas Diarias (Personales)
 /iniciar_daily
