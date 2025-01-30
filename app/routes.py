@@ -6,7 +6,7 @@ from .services import (
     crear_daily_session,
     responder_daily,
     registrar_equipo,
-    registrar_miembros,
+    register_members,
 )
 
 from .models import Team, TeamSettings, Member, Answer
@@ -110,10 +110,11 @@ def api_obtener_equipo(team_id):
 @bp.route("/api/registrar_miembros", methods=["POST"])
 def registrar_miembros():
     try:
-        data = request.json
+        data = request.get_json()
+        print("Esta es la data", data)
         members = data.get("members", [])
 
-        result = registrar_miembros(members)
+        result = register_members(members)
         return jsonify(result), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500

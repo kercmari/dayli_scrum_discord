@@ -338,3 +338,261 @@
 2025-01-19 11:48:32,227 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
 2025-01-19 11:48:32,810 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 47
 2025-01-19 11:48:32,811 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-29 18:48:08,109 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-29 18:48:08,110 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-29 18:48:08,110 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-29 18:48:08,110 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-29 18:48:08,110 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-29 18:48:08,110 - daily_bot - INFO - Iniciando bot...
+2025-01-29 18:48:08,110 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-29 18:48:08,111 - discord.client - INFO - logging in using static token
+2025-01-29 18:48:09,308 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5c00ea0006c61cc73fd08e183624ffed).
+2025-01-29 18:48:11,321 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-29 18:48:11,321 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-29 18:48:11,322 - daily_bot - INFO - Recordatorio diario iniciado
+2025-01-29 18:48:11,323 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:48:11,848 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 56
+2025-01-29 18:48:11,848 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-29 18:49:31,908 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:49:32,420 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 18:49:32,422 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:49:32,424 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 83
+2025-01-29 18:49:32,425 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 18:56:00,103 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:56:03,215 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 18:56:03,216 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:56:03,217 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 83
+2025-01-29 18:56:03,218 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 18:56:03,668 - daily_bot - ERROR - Error en registrar_miembros: 404 Not Found (error code: 10062): Unknown interaction
+2025-01-29 18:56:03,830 - discord.app_commands.tree - ERROR - Ignoring exception in command 'registrar_miembros'
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/discord_bot/bot.py", line 338, in registrar_miembros
+    await interaction.response.send_message(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/webhook/async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "/home/kerly/bot-dayli/discord_bot/bot.py", line 345, in registrar_miembros
+    await interaction.response.send_message(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/webhook/async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'registrar_miembros' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-01-29 18:56:33,083 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-29 18:56:33,085 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-29 18:56:33,085 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-29 18:56:33,085 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-29 18:56:33,085 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-29 18:56:33,085 - daily_bot - INFO - Iniciando bot...
+2025-01-29 18:56:33,085 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-29 18:56:33,085 - discord.client - INFO - logging in using static token
+2025-01-29 18:56:34,186 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 964234c444d55d6b96b0855c434d2a41).
+2025-01-29 18:56:36,200 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-29 18:56:36,201 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-29 18:56:36,201 - daily_bot - INFO - Recordatorio diario iniciado
+2025-01-29 18:56:36,202 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:56:36,202 - daily_bot - ERROR - Error en daily_reminder: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/obtener_equipo/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x75e9f44231f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-29 18:56:47,460 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-29 18:56:47,461 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-29 18:56:47,462 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-29 18:56:47,462 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-29 18:56:47,462 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-29 18:56:47,462 - daily_bot - INFO - Iniciando bot...
+2025-01-29 18:56:47,462 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-29 18:56:47,462 - discord.client - INFO - logging in using static token
+2025-01-29 18:56:48,587 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 768a8b17d467c300b53d4543c944a409).
+2025-01-29 18:56:50,591 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-29 18:56:50,591 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-29 18:56:50,591 - daily_bot - INFO - Recordatorio diario iniciado
+2025-01-29 18:56:50,593 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:56:51,113 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 56
+2025-01-29 18:56:51,113 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-29 18:56:57,676 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:56:58,177 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 18:56:58,179 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:56:58,180 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 83
+2025-01-29 18:56:58,181 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 18:57:50,446 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:57:50,970 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 18:57:50,971 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:57:50,973 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 83
+2025-01-29 18:57:50,974 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 18:59:36,391 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-29 18:59:36,392 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-29 18:59:36,392 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-29 18:59:36,392 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-29 18:59:36,392 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-29 18:59:36,393 - daily_bot - INFO - Iniciando bot...
+2025-01-29 18:59:36,393 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-29 18:59:36,393 - discord.client - INFO - logging in using static token
+2025-01-29 18:59:37,802 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: bf678ce656bd8064c50422d81c66087e).
+2025-01-29 18:59:39,807 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-29 18:59:39,807 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-29 18:59:39,807 - daily_bot - INFO - Recordatorio diario iniciado
+2025-01-29 18:59:39,809 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:59:39,809 - daily_bot - ERROR - Error en daily_reminder: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/obtener_equipo/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7dee32fc3190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-01-29 18:59:55,568 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-29 18:59:55,569 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-29 18:59:55,570 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-29 18:59:55,570 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-29 18:59:55,570 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-29 18:59:55,570 - daily_bot - INFO - Iniciando bot...
+2025-01-29 18:59:55,570 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-29 18:59:55,570 - discord.client - INFO - logging in using static token
+2025-01-29 18:59:56,900 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4dad4f8699f6e6961311c0b890f0faba).
+2025-01-29 18:59:58,903 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-29 18:59:58,903 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-29 18:59:58,903 - daily_bot - INFO - Recordatorio diario iniciado
+2025-01-29 18:59:58,905 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 18:59:59,432 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 56
+2025-01-29 18:59:59,432 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-29 19:00:03,686 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:00:04,191 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 19:00:04,192 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:00:04,194 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 83
+2025-01-29 19:00:04,196 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 19:00:59,078 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:01:05,276 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 19:01:05,277 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:01:05,279 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 83
+2025-01-29 19:01:05,279 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 19:01:05,662 - daily_bot - ERROR - Error en registrar_miembros: 404 Not Found (error code: 10062): Unknown interaction
+2025-01-29 19:01:05,802 - discord.app_commands.tree - ERROR - Ignoring exception in command 'registrar_miembros'
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/discord_bot/bot.py", line 338, in registrar_miembros
+    await interaction.response.send_message(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/webhook/async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "/home/kerly/bot-dayli/discord_bot/bot.py", line 345, in registrar_miembros
+    await interaction.response.send_message(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/webhook/async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'registrar_miembros' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-01-29 19:03:33,578 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:03:36,793 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 19:03:36,795 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:03:36,796 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 200 5
+2025-01-29 19:03:36,797 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 19:03:37,150 - daily_bot - ERROR - Error en registrar_miembros: 404 Not Found (error code: 10062): Unknown interaction
+2025-01-29 19:03:37,337 - discord.app_commands.tree - ERROR - Ignoring exception in command 'registrar_miembros'
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/discord_bot/bot.py", line 332, in registrar_miembros
+    await interaction.response.send_message(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/webhook/async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "/home/kerly/bot-dayli/discord_bot/bot.py", line 345, in registrar_miembros
+    await interaction.response.send_message(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/webhook/async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/app_commands/commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'registrar_miembros' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-01-29 19:07:28,686 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:07:29,181 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 19:07:29,182 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:07:29,183 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 200 5
+2025-01-29 19:07:29,184 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 19:12:19,972 - daily_bot - INFO - Comando slash ejecutado: iniciar_daily por kercmari en CodeCommunity
+2025-01-29 19:15:15,086 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/kerly/bot-dayli/venv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/kerly/bot-dayli/discord_bot/bot.py", line 408, in on_message
+    f"Mensaje recibido de {message.author.name} en #{message.channel.name}: {message.content}"
+AttributeError: 'DMChannel' object has no attribute 'name'
+2025-01-29 19:31:03,241 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:31:03,746 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 19:31:03,747 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:31:03,749 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 200 5
+2025-01-29 19:31:03,750 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 19:37:38,884 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:37:39,371 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 19:37:39,372 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:37:39,374 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 29
+2025-01-29 19:37:39,374 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 19:41:55,725 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:41:57,645 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 19:41:57,646 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:41:57,648 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 29
+2025-01-29 19:41:57,648 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-01-29 19:42:33,868 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-29 19:42:33,869 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-01-29 19:42:33,869 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-01-29 19:42:33,869 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-01-29 19:42:33,869 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-01-29 19:42:33,869 - daily_bot - INFO - Iniciando bot...
+2025-01-29 19:42:33,870 - asyncio - DEBUG - Using selector: EpollSelector
+2025-01-29 19:42:33,870 - discord.client - INFO - logging in using static token
+2025-01-29 19:42:35,111 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 31ec4bc7f76c1522c8070572a0a9993d).
+2025-01-29 19:42:37,127 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-01-29 19:42:37,127 - daily_bot - INFO - Cog DailyCommands agregado
+2025-01-29 19:42:37,127 - daily_bot - INFO - Recordatorio diario iniciado
+2025-01-29 19:42:37,129 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:42:37,618 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 56
+2025-01-29 19:42:37,619 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-01-29 19:42:41,251 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:42:41,727 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-01-29 19:42:41,729 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-01-29 19:42:42,209 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 200 55
+2025-01-29 19:42:42,210 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity

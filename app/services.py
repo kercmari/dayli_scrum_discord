@@ -78,20 +78,21 @@ def registrar_equipo(team_name, channel_id):
         raise
 
 
-def registrar_miembros(members):
+def register_members(members):
     """
     Servicio que registra miembros en un equipo.
     """
     try:
         for member in members:
-            member = Member(
+            member_get = Member(
                 team_id=member["team_id"],
-                member_id=member["member_id"],
-                member_name=member["member_name"],
+                discord_id=member["member_id"],
+                username=member["member_name"],
             )
-            db.session.add(member)
+            db.session.add(member_get)
         db.session.commit()
         return {"message": "Miembros registrados correctamente."}
     except Exception as e:
         print(e)
-        db.session.rollback
+        db.session.rollback() 
+        raise

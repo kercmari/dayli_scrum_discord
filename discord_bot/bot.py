@@ -315,8 +315,8 @@ class DailyCommands(commands.Cog):
             # Preparar datos
             members_data = [
                 {
-                    "username": member.name,
-                    "discord_id": str(member.id),
+                    "member_name": member.name,
+                    "member_id": str(member.id),
                     "team_id": team_id,
                 }
                 for member in miembros
@@ -327,7 +327,7 @@ class DailyCommands(commands.Cog):
                 f"{FLASK_API_URL}/api/registrar_miembros",
                 json={"members": members_data},
             )
-
+            print(response.json())
             if response.status_code == 200:
                 await interaction.response.send_message(
                     f"✅ Registrados {len(miembros)} miembros al equipo {team_id}\n"
