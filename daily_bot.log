@@ -596,3 +596,357 @@ AttributeError: 'DMChannel' object has no attribute 'name'
 2025-01-29 19:42:41,729 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
 2025-01-29 19:42:42,209 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 200 55
 2025-01-29 19:42:42,210 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por kercmari en CodeCommunity
+2025-02-11 18:00:18,678 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-02-11 18:00:18,706 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-02-11 18:00:18,707 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-02-11 18:00:18,708 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-02-11 18:00:18,709 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-02-11 18:00:18,710 - daily_bot - INFO - Iniciando bot...
+2025-02-11 18:00:18,747 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-11 18:00:18,846 - discord.client - INFO - logging in using static token
+2025-02-11 18:00:22,629 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 29304f1ef525816e42661b83425b9f2c).
+2025-02-11 18:00:24,731 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-02-11 18:00:24,732 - daily_bot - INFO - Cog DailyCommands agregado
+2025-02-11 18:00:24,733 - daily_bot - INFO - Recordatorio diario iniciado
+2025-02-11 18:00:24,736 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:00:27,283 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 56
+2025-02-11 18:00:27,286 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-02-11 18:02:24,211 - daily_bot - INFO - Mensaje recibido de angelica_ma en #bienvenida-y-reglas: hola
+2025-02-11 18:03:20,460 - daily_bot - INFO - Mensaje recibido de angelica_ma en #planificación-de-sesiones: POST /api/registrar_equipo
+2025-02-11 18:06:10,206 - daily_bot - INFO - Registrando equipo: Prueba1 http://localhost:5000/
+2025-02-11 18:06:10,208 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:06:13,071 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 200 56
+2025-02-11 18:06:13,073 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por angelica_ma en CodeCommunity
+2025-02-11 18:06:13,505 - daily_bot - ERROR - Error en registrar_equipo: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-11 18:06:13,709 - discord.app_commands.tree - ERROR - Ignoring exception in command 'registrar_equipo'
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 261, in registrar_equipo
+    await interaction.response.send_message(
+    ...<3 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 278, in registrar_equipo
+    await interaction.response.send_message(
+        "Error inesperado al registrar el equipo.", ephemeral=True
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'registrar_equipo' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-11 18:10:30,329 - daily_bot - INFO - Registrando equipo: Prueba1 http://localhost:5000/
+2025-02-11 18:10:30,331 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:10:33,149 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 200 56
+2025-02-11 18:10:33,151 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por angelica_ma en CodeCommunity
+2025-02-11 18:10:33,509 - daily_bot - ERROR - Error en registrar_equipo: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-11 18:10:33,690 - discord.app_commands.tree - ERROR - Ignoring exception in command 'registrar_equipo'
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 261, in registrar_equipo
+    await interaction.response.send_message(
+    ...<3 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 278, in registrar_equipo
+    await interaction.response.send_message(
+        "Error inesperado al registrar el equipo.", ephemeral=True
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'registrar_equipo' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-11 18:11:43,811 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000/
+2025-02-11 18:11:43,817 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:11:46,646 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 200 56
+2025-02-11 18:11:46,648 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por angelica_ma en CodeCommunity
+2025-02-11 18:11:47,027 - daily_bot - ERROR - Error en registrar_equipo: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-11 18:11:47,207 - discord.app_commands.tree - ERROR - Ignoring exception in command 'registrar_equipo'
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 261, in registrar_equipo
+    await interaction.response.send_message(
+    ...<3 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 278, in registrar_equipo
+    await interaction.response.send_message(
+        "Error inesperado al registrar el equipo.", ephemeral=True
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'registrar_equipo' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-11 18:15:52,690 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-02-11 18:15:52,693 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-02-11 18:15:52,694 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-02-11 18:15:52,694 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-02-11 18:15:52,695 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-02-11 18:15:52,695 - daily_bot - INFO - Iniciando bot...
+2025-02-11 18:15:52,696 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-11 18:15:52,698 - discord.client - INFO - logging in using static token
+2025-02-11 18:15:53,877 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8c2869dc730ac525aa7bae42582746d2).
+2025-02-11 18:15:55,894 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-02-11 18:15:55,896 - daily_bot - INFO - Cog DailyCommands agregado
+2025-02-11 18:15:55,897 - daily_bot - INFO - Recordatorio diario iniciado
+2025-02-11 18:15:55,902 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:15:58,204 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 404 39
+2025-02-11 18:15:58,206 - daily_bot - ERROR - Error obteniendo equipo 1: 404
+2025-02-11 18:16:31,030 - daily_bot - INFO - Registrando equipo: bot-dayli http://localhost:5000/
+2025-02-11 18:16:31,035 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:16:33,699 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 200 56
+2025-02-11 18:16:33,700 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por angelica_ma en CodeCommunity
+2025-02-11 18:17:42,757 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:17:45,086 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 200 55
+2025-02-11 18:17:45,089 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por angelica_ma en CodeCommunity
+2025-02-11 18:20:41,178 - daily_bot - INFO - Mensaje recibido de angelica_ma en #bot-dayli: /obtener_equipo/1
+2025-02-11 18:51:25,709 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-02-11 18:51:25,711 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-02-11 18:51:25,712 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-02-11 18:51:25,712 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-02-11 18:51:25,712 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-02-11 18:51:25,713 - daily_bot - INFO - Iniciando bot...
+2025-02-11 18:51:25,713 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-11 18:51:25,715 - discord.client - INFO - logging in using static token
+2025-02-11 18:51:26,902 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 581baef6b0937a784c007731936ad2ed).
+2025-02-11 18:51:28,908 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-02-11 18:51:28,909 - daily_bot - INFO - Cog DailyCommands agregado
+2025-02-11 18:51:28,909 - daily_bot - INFO - Recordatorio diario iniciado
+2025-02-11 18:51:28,911 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:51:31,282 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 56
+2025-02-11 18:51:31,285 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-02-11 18:53:30,748 - daily_bot - INFO - Mensaje recibido de bearxpress en #general: 
+2025-02-11 18:53:52,957 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:53:54,989 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /crear_daily HTTP/1.1" 404 207
+2025-02-11 18:53:54,990 - daily_bot - ERROR - Error creando daily: 404
+2025-02-11 18:53:54,992 - daily_bot - INFO - Comando slash ejecutado: crear_daily por bearxpress en CodeCommunity
+2025-02-11 18:54:07,090 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-11 18:54:09,120 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /crear_daily HTTP/1.1" 404 207
+2025-02-11 18:54:09,121 - daily_bot - ERROR - Error creando daily: 404
+2025-02-11 18:54:09,123 - daily_bot - INFO - Comando slash ejecutado: crear_daily por bearxpress en CodeCommunity
+2025-02-11 19:28:59,885 - daily_bot - INFO - Comando slash ejecutado: iniciar_daily por angelica_ma en CodeCommunity
+2025-02-11 19:29:58,424 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\client.py", line 449, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 409, in on_message
+    f"Mensaje recibido de {message.author.name} en #{message.channel.name}: {message.content}"
+                                                     ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DMChannel' object has no attribute 'name'
+2025-02-11 19:30:14,583 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\client.py", line 449, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 409, in on_message
+    f"Mensaje recibido de {message.author.name} en #{message.channel.name}: {message.content}"
+                                                     ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DMChannel' object has no attribute 'name'
+2025-02-11 19:30:35,668 - discord.client - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\client.py", line 449, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 409, in on_message
+    f"Mensaje recibido de {message.author.name} en #{message.channel.name}: {message.content}"
+                                                     ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DMChannel' object has no attribute 'name'
+2025-02-11 19:52:19,675 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 581baef6b0937a784c007731936ad2ed.
+2025-02-14 17:18:17,755 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-02-14 17:18:17,782 - discord.client - DEBUG - on_ready has successfully been registered as an event
+2025-02-14 17:18:17,782 - discord.client - DEBUG - on_message has successfully been registered as an event
+2025-02-14 17:18:17,783 - discord.client - DEBUG - on_interaction has successfully been registered as an event
+2025-02-14 17:18:17,783 - discord.client - DEBUG - on_command_error has successfully been registered as an event
+2025-02-14 17:18:17,784 - daily_bot - INFO - Iniciando bot...
+2025-02-14 17:18:17,791 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-02-14 17:18:17,809 - discord.client - INFO - logging in using static token
+2025-02-14 17:18:19,864 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b4dce1d7c9091d5a9e82cd4f7f2f23c5).
+2025-02-14 17:18:21,920 - daily_bot - INFO - developer#7785 se ha conectado a Discord!
+2025-02-14 17:18:21,921 - daily_bot - INFO - Cog DailyCommands agregado
+2025-02-14 17:18:21,922 - daily_bot - INFO - Recordatorio diario iniciado
+2025-02-14 17:18:21,924 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-14 17:18:24,320 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo/1 HTTP/1.1" 200 56
+2025-02-14 17:18:24,322 - daily_bot - ERROR - Miembro con ID 123456789012345678 no encontrado.
+2025-02-14 17:21:59,155 - daily_bot - INFO - Registrando equipo: padawan1 http://localhost:5000/
+2025-02-14 17:21:59,161 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-14 17:22:01,840 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 200 56
+2025-02-14 17:22:01,842 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por mrt0mato en CodeCommunity
+2025-02-14 17:22:02,207 - daily_bot - ERROR - Error en registrar_equipo: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-14 17:22:02,399 - discord.app_commands.tree - ERROR - Ignoring exception in command 'registrar_equipo'
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 261, in registrar_equipo
+    await interaction.response.send_message(
+    ...<3 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 278, in registrar_equipo
+    await interaction.response.send_message(
+        "Error inesperado al registrar el equipo.", ephemeral=True
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'registrar_equipo' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-14 17:23:03,727 - daily_bot - INFO - Mensaje recibido de mrt0mato en #bot-dayli: /obtener _equipo/1
+2025-02-14 17:24:10,507 - daily_bot - INFO - Registrando equipo: /@padawans http://localhost:5000/
+2025-02-14 17:24:10,510 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-14 17:24:13,100 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_equipo HTTP/1.1" 200 56
+2025-02-14 17:24:13,104 - daily_bot - INFO - Comando slash ejecutado: registrar_equipo por mrt0mato en CodeCommunity
+2025-02-14 17:25:28,792 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-14 17:25:31,120 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 1429
+2025-02-14 17:25:31,136 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por mrt0mato en CodeCommunity
+2025-02-14 17:26:29,338 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-14 17:26:31,613 - urllib3.connectionpool - DEBUG - http://localhost:5000 "GET /api/obtener_equipo_por_canal/1330449353873162291 HTTP/1.1" 200 19
+2025-02-14 17:26:31,615 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:5000
+2025-02-14 17:26:33,908 - urllib3.connectionpool - DEBUG - http://localhost:5000 "POST /api/registrar_miembros HTTP/1.1" 500 1429
+2025-02-14 17:26:33,914 - daily_bot - INFO - Comando slash ejecutado: registrar_miembros por mrt0mato en CodeCommunity
+2025-02-14 17:26:34,315 - daily_bot - ERROR - Error en registrar_miembros: 404 Not Found (error code: 10062): Unknown interaction
+2025-02-14 17:26:34,482 - discord.app_commands.tree - ERROR - Ignoring exception in command 'registrar_miembros'
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 339, in registrar_miembros
+    await interaction.response.send_message(
+    ...<2 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\discord_bot\bot.py", line 346, in registrar_miembros
+    await interaction.response.send_message(
+        "Error inesperado al registrar miembros", ephemeral=True
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+    ...<6 lines>...
+    )
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\angelica\Documents\GitHub\dayli_scrum_discord\venv\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'registrar_miembros' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
