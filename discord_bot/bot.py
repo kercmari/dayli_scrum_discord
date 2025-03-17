@@ -7,6 +7,7 @@ import os
 import logging
 from datetime import datetime
 from dotenv import load_dotenv
+import asyncio
 
 logging.basicConfig(
     level=logging.DEBUG,
